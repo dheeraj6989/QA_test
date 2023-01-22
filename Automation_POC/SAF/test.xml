@@ -1,0 +1,15 @@
+<suite name="web_testNG">
+<test name="MIS AutoMation">
+<parameter name="projectName" value="MIS"/>
+<parameter name="browserName" value="chrome"/>
+
+
+
+<classes>
+<class name='Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en'/> 
+ 
+  </classes>
+</test>
+
+
+</suite>

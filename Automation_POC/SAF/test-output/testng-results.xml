@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T19:35:00Z" name="web_testNG" finished-at="2023-01-22T19:35:10Z" duration-ms="10288">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T19:35:00Z" name="MIS AutoMation" finished-at="2023-01-22T19:35:10Z" duration-ms="10288">
+      <class name="Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en">
+        <test-method is-config="true" signature="script(java.lang.String)[pri:0, instance:Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en@5c86dbc5]" started-at="2023-01-23T01:05:00Z" name="script" finished-at="2023-01-23T01:05:08Z" duration-ms="8201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- script -->
+        <test-method signature="verify_Field_Velidationin_LoginPage(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en@5c86dbc5]" started-at="2023-01-23T01:05:08Z" name="verify_Field_Velidationin_LoginPage" data-provider="TestData" finished-at="2023-01-23T01:05:10Z" duration-ms="1346" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We are sorry. All fields are required. Please try again.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2 Products]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[25 Results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Field_Velidationin_LoginPage -->
+        <test-method is-config="true" signature="aterMethod()[pri:0, instance:Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en@5c86dbc5]" started-at="2023-01-23T01:05:10Z" name="aterMethod" finished-at="2023-01-23T01:05:10Z" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aterMethod -->
+      </class> <!-- Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en -->
+    </test> <!-- MIS AutoMation -->
+  </suite> <!-- web_testNG -->
+</testng-results>

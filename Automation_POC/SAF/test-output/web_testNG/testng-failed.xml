@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [web_testNG]">
+  <test name="MIS AutoMation(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="projectName" value="MIS"/>
+    <classes>
+      <class name="Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en">
+        <methods>
+          <include name="verify_Field_Velidationin_LoginPage" invocation-numbers="0"/>
+          <include name="aterMethod"/>
+          <include name="script"/>
+        </methods>
+      </class> <!-- Modules.MIS.Desktop.TestScript.English.Us.Login.TC_TE_Login_en -->
+    </classes>
+  </test> <!-- MIS AutoMation(failed) -->
+</suite> <!-- Failed suite [web_testNG] -->
